@@ -1,0 +1,26 @@
+
+mentor table 
+
+
+create table Mentor (
+   batch_id integer,
+   Mentor_name text ,
+   Mentor _Qualification  text,
+   Batch_Name  text,    );
+
+ insert into Mentor values ("B51Fd","sanjay","full stack developer","B51Fd","")   
+
+
+student table 
+
+
+   create table student (
+id integer,
+student_name text ,
+Age integer,
+student _Qualification  text,
+Batch_Name  text,
+course text );
+ 
+
+insert into student values ("1","sanjay",22,"Bsc chemistry","B51Fd"," full stack develpor")
